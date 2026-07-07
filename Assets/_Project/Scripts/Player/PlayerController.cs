@@ -45,9 +45,13 @@ public class PlayerController : MonoBehaviour
         controls.Gameplay.Move.canceled += ctx => moveInput = 0f;
         controls.Gameplay.Jump.performed += ctx => jumpBufferCounter = jumpBufferTime;
     }
+    private void OnEnable()
+    {
+        controls ??= new PlayerControls();   // si aun no existe, la crea
+        controls.Gameplay.Enable();
+    }
 
-    private void OnEnable() => controls.Gameplay.Enable();
-    private void OnDisable() => controls.Gameplay.Disable();
+    private void OnDisable() => controls?.Gameplay.Disable();   // solo si existe
 
     private void Update()
     {
