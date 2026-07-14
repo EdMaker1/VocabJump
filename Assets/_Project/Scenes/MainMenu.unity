@@ -1186,12 +1186,8 @@ MonoBehaviour:
     one life. Spikes also cost one life!\r\n\r\n     You have 3 lives. Reach the
     green exit to complete the level. Move with A / D or the arrow keys. Jump with
     SPACE.\r\n\r\n     Walk into the yellow zones to get an English question.\r\n    
-    A correct answer builds the transparent platforms so you can reach the goal.\r\n326\r\nMu\xE9vete
-    con A/D o las flechas. Salta con la barra espaciadora.\r\n\r\nEntra en las zonas
-    amarillas para que te hagan una pregunta en ingl\xE9s.\r\n\r\nUna respuesta correcta
-    crea las plataformas transparentes para que puedas llegar a la meta.\r\n\r\nUna
-    respuesta incorrecta te cuesta una vida. \xA1Los pinchos tambi\xE9n te cuestan
-    una vida!\r\n\r\nTienes 3 vidas. Llega a la salida verde para completar el nivel."
+    A correct answer builds the transparent platforms so you can reach the goal.\r\n32
+    salida verde para completar el nivel."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
